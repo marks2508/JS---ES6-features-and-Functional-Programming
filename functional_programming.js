@@ -109,3 +109,6 @@ console.log(list.length);
 const addColor = (title, array) => array.concat({title});
 console.log(addColor('Glam Green', list).length);
 console.log(list.length);
+// Array.concat concatenates arrays. In this case, it takes a new object, with a
+// new color title and adds it to a copy of the original array.
+// You can also   
